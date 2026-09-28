@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #12161C;
+  color: #EDEAE2;
+}
+
+.sprocket-rule {
+  background-image: radial-gradient(circle, #2D3540 1.5px, transparent 1.5px);
+  background-size: 14px 14px;
+  background-position: center;
+}
+
+::selection {
+  background-color: #E8A33D;
+  color: #12161C;
+}
